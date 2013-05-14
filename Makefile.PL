@@ -9,7 +9,15 @@ WriteMakefile
   'EXE_FILES' => [],
   'VERSION_FROM' => 'lib/Google/Shopping.pm',
   'PREREQ_PM' => {
-                   'Test::More' => 0
+                   'Moose::Util::TypeConstraints' => '2.0802',
+                   'Readonly' => '1.03',
+                   'namespace::clean' => '0.24',
+                   'Test::More' => 0,
+                   'LWP::UserAgent' => '6.05',
+                   'MooseX::Params::Validate' => '0.18',
+                   'JSON' => '2.57',
+                   'HTTP::Request' => '6',
+                   'Moose' => '2.0802'
                  }
 )
 ;

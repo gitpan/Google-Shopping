@@ -1,5 +1,5 @@
 ---
-abstract: 'a interface to  Google::Shopping!'
+abstract: 'Perl implementation of Search API for Google Shopping!'
 author:
   - 'Ovidiu Nita Tatar <ovn.tatar@gmail.com>'
 build_requires:
@@ -16,9 +16,17 @@ name: Google-Shopping
 provides:
   Google::Shopping:
     file: lib/Google/Shopping.pm
-    version: 0.02
+    version: 0.03
 requires:
+  HTTP::Request: 6
+  JSON: 2.57
+  LWP::UserAgent: 6.05
+  Moose: 2.0802
+  Moose::Util::TypeConstraints: 2.0802
+  MooseX::Params::Validate: 0.18
+  Readonly: 1.03
+  namespace::clean: 0.24
   perl: 5.006
 resources:
   license: http://dev.perl.org/licenses/
-version: 0.02
+version: 0.03
