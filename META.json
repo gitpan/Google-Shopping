@@ -33,6 +33,7 @@
             "Moose::Util::TypeConstraints" : "2.0802",
             "MooseX::Params::Validate" : "0.18",
             "Readonly" : "1.03",
+            "XML::Simple" : "2.2",
             "namespace::clean" : "0.24",
             "perl" : "5.006"
          }
@@ -41,7 +42,7 @@
    "provides" : {
       "Google::Shopping" : {
          "file" : "lib/Google/Shopping.pm",
-         "version" : "0.03"
+         "version" : "0.04"
       }
    },
    "release_status" : "stable",
@@ -50,5 +51,5 @@
          "http://dev.perl.org/licenses/"
       ]
    },
-   "version" : "0.03"
+   "version" : "0.04"
 }
